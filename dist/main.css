@@ -1,8 +1,8 @@
-.container {
-  background-color: lightgreen; }
+.cover-container {
+  max-width: 20rem; }
 
-.title {
-  color: red; }
+.hero {
+  background: url(img/bg-hero.jpg) center center no-repeat; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
