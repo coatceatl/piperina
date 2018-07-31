@@ -16,6 +16,19 @@
   line-height: 12.35px;
   text-transform: uppercase; }
 
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  height: 73px;
+  background-color: #ef4d23;
+  border-radius: 50%;
+  color: #fdfdfd;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 35.25px; }
+
 .btn-order {
   background-color: #931d53;
   box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.66);
