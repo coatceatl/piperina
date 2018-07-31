@@ -1,3 +1,15 @@
 .hero {
-  background: url(../img/bg-hero.jpg) center center no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background: url(../img/bg-hero.jpg) 50% 0 no-repeat #538500;
+}
+.header {
+  margin-top: 16px;
+}
+.subtitle {
+  color: #313131;
+  font-size: remy(11px);
+  font-weight: 500;
+  line-height: 12.35px;
+  text-transform: uppercase;
 }
