@@ -10,6 +10,7 @@
 }
 .hero-content {
   width: 100%;
+  margin-bottom: 24px;
 }
 .subtitle {
   color: #313131;
@@ -40,6 +41,14 @@
   background-color: rgba(169,169,169,.93);
   width: 126px;
   height: 40px;
+  color: #313131;
+  font-size: remy(17px);
+  font-weight: 500;
+  line-height: 24.99px;
+
+  span {
+    font-size: remy(12px);
+  }
 }
 .new-price {
   width: 127px;

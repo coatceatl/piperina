@@ -9,7 +9,6 @@
   font-weight: 500;
   line-height: 24.52px;
   color: #fff;
-  margin-bottom: 24px;
   text-transform: uppercase; }
 
 .hero {
@@ -23,7 +22,8 @@
   margin-bottom: 40px; }
 
 .hero-content {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 24px; }
 
 .subtitle {
   color: #313131;
@@ -51,7 +51,13 @@
 .old-price {
   background-color: rgba(169, 169, 169, 0.93);
   width: 126px;
-  height: 40px; }
+  height: 40px;
+  color: #313131;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 24.99px; }
+  .old-price span {
+    font-size: 0.75rem; }
 
 .new-price {
   width: 127px;
