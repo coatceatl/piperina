@@ -5,8 +5,7 @@
   display: block;
   background-color: #931d53;
   box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.66);
-  font-size: 1.4375rem;
-  font-weight: 500;
+  font-size: 1.4375rem !important;
   line-height: 24.52px;
   color: #fff;
   text-transform: uppercase;
@@ -23,6 +22,10 @@
   width: 100%;
   margin-top: 16px;
   margin-bottom: 24px; }
+
+.logo {
+  max-width: 100%;
+  height: auto; }
 
 .hero-content {
   width: 100%;
@@ -55,20 +58,27 @@
   font-weight: 700;
   line-height: 35.25px; }
 
-.price img {
+.product {
   width: 142px; }
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+  font-weight: 500; }
 
 .old-price {
   background-color: rgba(169, 169, 169, 0.93);
-  width: 126px;
+  width: 127px;
   height: 40px;
-  color: #313131;
   font-size: 1.0625rem;
-  font-weight: 500;
   line-height: 24.99px;
-  margin-right: 28px; }
+  margin-right: 28px;
+  text-decoration: line-through; }
   .old-price span {
-    font-size: 0.75rem; }
+    font-size: 0.75rem;
+    font-weight: 500; }
 
 .new-price {
   width: 127px;
@@ -84,7 +94,8 @@
   color: #fff;
   text-align: start;
   margin-top: 13px;
-  margin-bottom: 14px; }
+  margin-bottom: 14px;
+  padding-left: 15px; }
 
 .icon {
   width: 17px;
@@ -1712,7 +1723,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
@@ -2130,7 +2141,7 @@ fieldset:disabled a.btn {
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 24.52px;
   border-radius: 10px; }
 
 .btn-sm, .btn-group-sm > .btn {

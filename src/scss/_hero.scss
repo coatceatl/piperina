@@ -9,6 +9,10 @@
   margin-top: 16px;
   margin-bottom: 24px;
 }
+.logo {
+  max-width: 100%;
+  height: auto;
+}
 .hero-content {
   width: 100%;
   margin-bottom: 24px;
@@ -40,23 +44,28 @@
   font-weight: 700;
   line-height: 35.25px;
 }
+.product {
+  width: 142px;
+}
 .price {
-  img {
-    width: 142px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+  font-weight: 500;
 }
 .old-price {
   background-color: rgba(169,169,169,.93);
-  width: 126px;
+  width: 127px;
   height: 40px;
-  color: #313131;
   font-size: remy(17px);
-  font-weight: 500;
   line-height: 24.99px;
   margin-right: 28px;
+  text-decoration: line-through;
 
   span {
     font-size: remy(12px);
+    font-weight: 500;
   }
 }
 .new-price {
@@ -74,6 +83,7 @@
   text-align: start;
   margin-top: 13px;
   margin-bottom: 14px;
+  padding-left: 15px;
 }
 .icon {
   width: 17px;
