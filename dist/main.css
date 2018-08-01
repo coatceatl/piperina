@@ -1,11 +1,10 @@
 .cover-container {
-  max-width: 20rem; }
+  width: 20rem; }
 
 .btn-order {
   display: block;
   background-color: #931d53;
   box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.66);
-  border-radius: 10px;
   font-size: 1.4375rem;
   font-weight: 500;
   line-height: 24.52px;
@@ -17,7 +16,8 @@
 .hero {
   height: 100vh;
   width: 100vw;
-  background: url(img/bg-hero.jpg) 50% 0 no-repeat #538500; }
+  background: url(img/bg-hero.jpg) top center no-repeat #538500;
+  background-size: 100% auto; }
 
 .header {
   width: 100%;
@@ -2131,7 +2131,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem; }
+  border-radius: 10px; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
