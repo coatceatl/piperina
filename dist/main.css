@@ -2,6 +2,7 @@
   max-width: 20rem; }
 
 .btn-order {
+  display: block;
   background-color: #931d53;
   box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
@@ -9,7 +10,9 @@
   font-weight: 500;
   line-height: 24.52px;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-right: 22px;
+  margin-left: 22px; }
 
 .hero {
   height: 100vh;
@@ -19,11 +22,14 @@
 .header {
   width: 100%;
   margin-top: 16px;
-  margin-bottom: 40px; }
+  margin-bottom: 24px; }
 
 .hero-content {
   width: 100%;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .subtitle {
   color: #313131;
@@ -31,6 +37,10 @@
   font-weight: 500;
   line-height: 12.35px;
   text-transform: uppercase; }
+
+.sale {
+  margin-left: 28px;
+  height: 103px; }
 
 .circle {
   display: flex;
@@ -55,14 +65,16 @@
   color: #313131;
   font-size: 1.0625rem;
   font-weight: 500;
-  line-height: 24.99px; }
+  line-height: 24.99px;
+  margin-right: 28px; }
   .old-price span {
     font-size: 0.75rem; }
 
 .new-price {
   width: 127px;
   height: 38px;
-  background: url(img/bg-price.png) 100% 100% no-repeat; }
+  background: url(img/bg-price.png) 100% 100% no-repeat;
+  margin-right: 28px; }
 
 .hero-list {
   list-style: none;
@@ -223,7 +235,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0056b3;
+    color: #fff;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2103,7 +2115,7 @@ fieldset:disabled a.btn {
   color: #007bff;
   background-color: transparent; }
   .btn-link:hover {
-    color: #0056b3;
+    color: #fff;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -3343,7 +3355,7 @@ input[type="button"].btn-block {
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #0056b3;
+    color: #fff;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }

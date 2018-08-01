@@ -5,6 +5,7 @@
   max-width: 20rem;
 }
 .btn-order {
+  display: block;
   background-color: #931d53;
   box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.66);
   border-radius: 10px;
@@ -13,4 +14,6 @@
   line-height: 24.52px;
   color: #fff;
   text-transform: uppercase;
+  margin-right: 22px;
+  margin-left: 22px;
 }
