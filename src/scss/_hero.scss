@@ -4,7 +4,9 @@
   background: url(../img/bg-hero.jpg) 50% 0 no-repeat #538500;
 }
 .header {
+  width: 100%;
   margin-top: 16px;
+  margin-bottom: 40px;
 }
 .subtitle {
   color: #313131;
@@ -26,15 +28,15 @@
   font-weight: 700;
   line-height: 35.25px;
 }
-.btn-order {
-  background-color: #931d53;
-  box-shadow: 1px 6px 7px rgba(0, 0, 0, 0.66);
-  border-radius: 10px;
-  font-size: remy(23px);
-  font-weight: 500;
-  line-height: 24.52px;
-  color: #fff;
-  text-transform: uppercase;
+.price {
+  img {
+    width: 142px;
+  }
+}
+.old-price {
+  background-color: #a9a9a9;
+  width: 126px;
+  height: 40px;
 }
 .hero-list {
   list-style: none;
@@ -43,9 +45,12 @@
   line-height: 24px;
   color: #fff;
   text-align: start;
+  margin-top: 13px;
+  margin-bottom: 14px;
 }
 .icon {
   width: 17px;
   height: 17px;
   margin-right: 11px;
 }
+
