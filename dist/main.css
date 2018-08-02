@@ -151,6 +151,17 @@
   .description .product {
     box-shadow: -42px 44px -14px rgba(0, 0, 0, 0.64); }
 
+.block {
+  color: #fff;
+  background: #ed5127;
+  background-image: linear-gradient(to bottom, #ed5127, #ee0965);
+  margin-top: 34px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px; }
+  .block p {
+    border: 2px dashed #fff; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
