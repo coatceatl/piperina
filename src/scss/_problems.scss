@@ -1,4 +1,5 @@
-.problems {
+.problems,
+.delivery {
   background: url(../img/bg-problems.jpg);
   padding-top: 33px;
 
@@ -44,4 +45,12 @@
 }
 .content-text {
   font-size: remy(12px);
+}
+.del-title {
+  font-size: remy(11px);
+  font-weight: 500;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  color: #444;
+  letter-spacing: -0.4px;
 }
