@@ -1,0 +1,27 @@
+.problems {
+  background: url(../img/bg-problems.jpg);
+
+  .heading {
+    &:after {
+      content: '. . .';
+      display: block;
+      margin: auto;
+      font-size: remy(34px);
+      line-height: 1rem;
+    }
+  }
+}
+.content {
+  margin-top: 10px;
+}
+.content-title {
+  font-size: remy(11px);
+  font-weight: 500;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  color: #ff0000;
+  letter-spacing: -0.2px;
+}
+.content-text {
+  font-size: remy(12px);
+}

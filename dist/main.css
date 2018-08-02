@@ -1,6 +1,13 @@
 .cover-container {
   width: 20rem; }
 
+.heading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 22.97px;
+  color: #424242;
+  text-transform: uppercase; }
+
 .btn-order {
   display: block;
   background-color: #931d53;
@@ -13,7 +20,7 @@
   margin-left: 22px; }
 
 .hero {
-  height: 100vh;
+  height: 525px;
   width: 100vw;
   background: url(img/bg-hero.jpg) top center no-repeat #538500;
   background-size: 100% auto; }
@@ -42,8 +49,7 @@
   text-transform: uppercase; }
 
 .sale {
-  margin-left: 28px;
-  height: 103px; }
+  margin-left: 28px; }
 
 .circle {
   display: flex;
@@ -101,6 +107,29 @@
   width: 17px;
   height: 17px;
   margin-right: 11px; }
+
+.problems {
+  background: url(img/bg-problems.jpg); }
+  .problems .heading:after {
+    content: '. . .';
+    display: block;
+    margin: auto;
+    font-size: 2.125rem;
+    line-height: 1rem; }
+
+.content {
+  margin-top: 10px; }
+
+.content-title {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  color: #ff0000;
+  letter-spacing: -0.2px; }
+
+.content-text {
+  font-size: 0.75rem; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
