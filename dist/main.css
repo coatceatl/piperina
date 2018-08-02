@@ -64,9 +64,6 @@
   font-weight: 700;
   line-height: 35.25px; }
 
-.product {
-  width: 142px; }
-
 .price {
   display: flex;
   justify-content: center;
@@ -110,15 +107,33 @@
 
 .problems {
   background: url(img/bg-problems.jpg); }
-  .problems .heading:after {
-    content: '. . .';
-    display: block;
-    margin: auto;
-    font-size: 2.125rem;
-    line-height: 1rem; }
+  .problems .heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 22.97px;
+    color: #424242;
+    text-transform: uppercase; }
+    .problems .heading:after {
+      content: '. . .';
+      display: block;
+      margin: auto;
+      font-size: 2.125rem;
+      line-height: 1rem; }
 
-.content {
-  margin-top: 10px; }
+.heading-white {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 22.97px;
+  line-height: 16.85px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 33px; }
+
+.text-white {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff; }
 
 .content-title {
   font-size: 0.6875rem;
@@ -130,6 +145,11 @@
 
 .content-text {
   font-size: 0.75rem; }
+
+.description {
+  background-color: #538500; }
+  .description .product {
+    box-shadow: -42px 44px -14px rgba(0, 0, 0, 0.64); }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
