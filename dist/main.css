@@ -235,6 +235,13 @@
   margin-top: 30px;
   margin-bottom: 20px; }
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 100px !important;
+  display: flex;
+  align-items: flex-start !important; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
